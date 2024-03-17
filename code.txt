@@ -1,0 +1,105 @@
+
+namespace methods_functions
+{
+    internal class Program
+    {
+        #region task1
+        //static void Main(string[] args)
+        //{
+        //    string[] c = { "alma", "armud", "nar", "gilas" };
+        //    string[] d = { "alma", "heyva", "uzum", "armud","gilas"};
+
+        //    Beraberlik(c, d);
+        //}
+
+        //public static void Beraberlik(string[] c, string[] d)
+        //{
+
+        //    for (int i = 0; i < c.Length; i++)
+        //    {
+        //        for (int j = 0; j < d.Length; j++)
+        //        {
+        //            if (c[i] == d[j])
+        //            {
+        //                Console.WriteLine(c[i]);
+        //                break;
+        //            }
+
+        //        }
+
+        //    }
+
+        //}
+        #endregion
+
+        #region task2
+        //static void Main(string[] args)
+        //{
+        //    int[] a = { 1, 2, 3, 4, 5 };
+
+        //    Multi(a);
+        //}
+
+        //public static void Multi(int[] a)
+        //{     
+        //        int multi = 1;
+        //        for (int i = 0; i < a.Length; i++)
+        //        {
+        //            multi *= a[i];
+        //        }
+        //    Console.WriteLine(multi);
+        //}
+        #endregion
+
+        #region task3
+        //static void Main(string[] args)
+        //{
+        //    string[] arr = { "Ana", "Ata", "Nene", "Baba" };
+        //    IlkHerf('N',arr);
+        //}
+
+        //public static void IlkHerf(char ch,string[] arr)
+        //{
+
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        if (arr[i][0] == ch)
+        //        {
+        //            Console.WriteLine(arr[i]);
+        //        }
+        //    }
+        //}
+        #endregion
+
+        #region task4
+        //static void Main(string[] args)
+        //{
+        //    Console.WriteLine(Fibonacci(10));
+
+        //}
+
+        //public static int Fibonacci(int n)
+        //{
+
+
+        //    int[] arr = new int[n +1];
+        //    arr[0] = 0;
+        //    arr[1] = 1;
+
+        //    for (int i = 2; i <= n; i++)
+        //    {
+        //        arr[i] = arr[i - 1] + arr[i - 2];
+        //    }
+
+        //    return arr[n];
+        //}
+        #endregion
+    }
+}
+
+
+
+
+
+
+    
